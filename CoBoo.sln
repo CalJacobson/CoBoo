@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoBoo", "CoBoo.csproj", "{FD37B481-CE1D-4FC5-AA39-FB281EF09AA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD37B481-CE1D-4FC5-AA39-FB281EF09AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD37B481-CE1D-4FC5-AA39-FB281EF09AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD37B481-CE1D-4FC5-AA39-FB281EF09AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD37B481-CE1D-4FC5-AA39-FB281EF09AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB86EFA5-E2F9-407E-9141-C7901C7C93AD}
+	EndGlobalSection
+EndGlobal
