@@ -2,6 +2,8 @@
 
 **CoBoo** is intended to be a document management and sharing system for individuals and families, and takes its name from [commonplace book](https://en.wikipedia.org/wiki/Commonplace_book), a means of compiling information since antiquity.  
 
+CoBoo is _not_ intended to scale locally to support a large number of users; personal use is the primary driver here.  
+
 ## Goals  
 The CoBoo project has three goals: maintainability, survivability and shareability.  
 
