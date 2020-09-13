@@ -20,4 +20,8 @@ CoBoo will allow users to share files with other _specific_ CoBoo users over P2P
 ## Technical Implementation 
 CoBoo is to be a cross-platform (Microsoft Windows, Apple OS X, Linux) application.  The backend will be a .NET Core service atop a local SQLite database containing file metadata.  The frontend will be accessible via any modern browser, supported by the Angular framework.  
 
-Each item stored in CoBoo will reside in the local filesystem, accompanied by a human-readable XML metadata file.  As items are updated, so are these metadata files as well as the SQLite database.  These metadata files will accompany their associated content during sharing and cloud storage operations, and in the unlikely event of a database failure can be used to recreate it (and vice-versa).  
+Each item stored in CoBoo will reside in the local filesystem, accompanied by a human-readable XML metadata file (examples [here](https://github.com/CalJacobson/ArchiveMetadataInterchangeFormat)).  As items are updated, so are these metadata files as well as the SQLite database.  These metadata files will accompany their associated content during sharing and cloud storage operations, and in the unlikely event of a database failure can be used to recreate it (and vice-versa).  
+
+[NLog](https://nlog-project.org/) will be used for logging.  
+
+Eventually authentication (to provide a degree of security, as well as a means of tying changes and ownership to specific users) will also be incorporated.
