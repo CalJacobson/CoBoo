@@ -1,12 +1,15 @@
 ﻿using CoBooCore.Common;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CoBooCore.Plugin
 {
     public interface IPlugin
     {
+        /// <summary>
+        /// Returns the email of the plugin author.
+        /// </summary>
+        /// <returns>Plugin author's email address</returns>
+        string GetAuthorEmail();
+
         /// <summary>
         /// Returns the plugin author's name.
         /// </summary>
